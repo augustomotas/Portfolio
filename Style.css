@@ -1,0 +1,409 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', 'sans-seri'
+}
+
+.background {
+    background-color: #000215;
+    background-image: url(Imagens/back.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 97.3vh;
+    width: 100%;
+}
+
+.pic {
+    size: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+nav h2 a {
+    color: #fff;
+    font-size: 35px;
+    letter-spacing: 2px;
+    text-decoration: none;
+
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 25px;
+    list-style-type: none;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: 300ms linear;
+
+}
+
+span {
+    color: #f03a74;
+}
+
+nav ul li a:hover {
+    color: #f03a74;
+    font-size: 17px;
+
+}
+
+.ctt {
+    background-color: #ed2967;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 25px;
+    border-radius: 30px;
+    transition: 300ms linear;
+}
+
+.ctt:hover {
+    background-color: #fff;
+    color: #ed2967;
+}
+
+.Main {
+    position: absolute;
+    top: 35%;
+    left: 8%;
+    transform: translateY(-50);
+
+}
+
+h1 {
+    color: #fff;
+    margin: 20px 0px 10px;
+    font-size: 100px;
+}
+
+h2 {
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+h3 {
+    color: #fff;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+footer {
+    text-align: center;
+    color: #fff;
+    background-color: #000322;
+}
+.container-me {
+    margin-left: 10%;
+    width: 80%;
+    margin-bottom: 10%;
+
+}
+
+.img {
+    padding-top: 0px;
+    margin: 20px;
+    display: flex;
+    height: 330px;
+    width: 10%;
+    padding-right: 10px;
+    position: relative;
+    margin-top: 25px;
+    margin-right: 160px;
+
+}
+
+.Title h2 {
+    color: #fff;
+    font-size: 58px;
+    width: 50%;
+    margin: 30px auto;
+    text-align: center;
+}
+
+
+.Card {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #404040c9;
+}
+
+.CardC {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.CardC p, .CardC h2{
+    font-family: cursive;
+}
+
+.textcard {
+    padding-left: 5%;
+    padding-bottom: 1%;
+    font-size: 20px;
+    color: #fff;
+    width: 70%;
+    text-align: center;
+    display: flex;
+
+}
+
+.textcard li {
+    padding-left: 5%;
+}
+
+
+
+.Caixa {
+    background-color: #404040;
+    border-radius: 10px;
+    color: #ffffffc5;
+    text-align: center;
+}
+
+.textcard {
+    padding-left: 5%;
+    padding-top: 10%;
+    padding-bottom: 1%;
+    font-size: 20px;
+    color: #fff;
+    width: 70%;
+    text-align: justify;
+    display: inline-block;
+    max-height: 40px;
+
+
+}
+
+.textcard li {
+    padding-left: 5%;
+}
+
+.card {
+    width: 40%;
+    display: inline-block;
+}
+
+.icon1 {
+    height: 25vh;
+}
+
+.icon {
+    text-align: center;
+    padding-right: 30px;
+    font-size: 20px;    
+}
+
+.iconC {
+    padding: 2%;
+    padding-top: 0%;
+    color: white;
+    text-align: justify;
+    padding-right: 30px;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.iconC h3 {
+    text-align: center;
+}
+
+.CardProj {
+    padding: 3%;
+    padding-left: 0%;
+    padding-right: 0%;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #404040d5;
+}
+.modal {
+    opacity: 0;
+    visibility: hidden;
+    position: static;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9);
+    transition: opacity .25s ease;
+}
+
+.modal h2 {
+    text-align: center;
+}
+
+.modal p {
+    font-size: 20px;
+    text-align: justify;
+}
+
+.modal li {
+    font-size: 20px;
+    text-align: left;
+}
+
+.modal a {
+    color: rgb(150, 0, 0);
+    text-align: center;
+}
+
+.modal__bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+.modal-state {
+    display: none;
+}
+
+.modal-state:checked+.modal {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.modal-state:checked+.modal .modal__inner {
+    top: 0;
+}
+
+.modal__inner {
+    transition: top .25s ease;
+    position: absolute;
+    top: -20%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    margin: auto;
+    overflow: auto;
+    background: rgba(255, 255, 255, 0.962);
+    border-radius: 5px;
+    padding: 1em 2em;
+    height: 50%;
+}
+
+.modal__close {
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    width: 1.1em;
+    height: 1.1em;
+    cursor: pointer;
+}
+
+.modal__close:after,
+.modal__close:before {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 1.5em;
+    background: #ccc;
+    display: block;
+    transform: rotate(45deg);
+    left: 50%;
+    margin: -3px 0 0 -1px;
+    top: 0;
+}
+
+.modal__close:hover:after,
+.modal__close:hover:before {
+    background: #aaa;
+}
+
+.modal__close:before {
+    transform: rotate(-45deg);
+}
+
+@media screen and (max-width: 768px) {
+
+    .modal__inner {
+        width: 90%;
+        height: 90%;
+        box-sizing: border-box;
+    }
+}
+
+/* Other
+ * =============================== */
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    color: #fff;
+    transition: 300ms linear;
+}
+
+.btn:hover,
+.btn:focus {
+    transform: scale(1.2);
+}
+
+.btn:active {
+    background: #191919;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2) inset;
+}
+
+.icon1Contact {
+    height: 8vh;
+
+}
+
+.iconContact a {
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+}
+
+.iconContact {
+    padding-right: 50px;
+    transition: 300ms linear;
+
+}
+
+.iconContact:hover {
+    transform: scale(1.2);
+}
+
+
+.textcard li {
+    padding-left: 5%;
+}
+
+.box {
+    text-align: center;
+    justify-content: center;
+}
+.CardContact {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 100px;
+    border-radius: 10px;
+    background-color: #ffffff00;
+}

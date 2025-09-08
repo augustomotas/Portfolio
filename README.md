@@ -15,7 +15,7 @@ Você pode acessar meu portfólio aqui:
 
 ---
 
-## ✨ Sobre o Projeto
+## Sobre o Projeto
 
 Este portfólio é uma página estática desenvolvida para ser a vitrine dos meus trabalhos. Nele, você encontrará uma galeria com alguns projetos, cada um com uma breve descrição e links para suas demonstrações ao vivo e seus respectivos repositórios no GitHub.
 
@@ -28,7 +28,7 @@ Este portfólio é uma página estática desenvolvida para ser a vitrine dos meu
 
 ---
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 As seguintes ferramentas e tecnologias foram usadas na construção deste projeto:
 

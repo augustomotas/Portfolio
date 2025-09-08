@@ -35,7 +35,8 @@ As seguintes ferramentas e tecnologias foram usadas na construção deste projet
 * **HTML5**
 * **CSS3**
 * **JavaScript**
-* ---
+
+ ---
 
 ## 📫 Contato
 

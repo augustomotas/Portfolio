@@ -52,7 +52,7 @@ section {
 }
 
 .social-icon {
-    width: 7%; /* Define a largura da imagem */
+    width: 70px; /* Define a largura da imagem */
     height: auto; /* Mantém a proporção original da imagem */
     margin: 30px 0; /* Adiciona um pouco de espaço acima e abaixo */
     border-radius: 15px;

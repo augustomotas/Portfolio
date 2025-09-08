@@ -41,7 +41,7 @@ As seguintes ferramentas e tecnologias foram usadas na construção deste projet
 
 Gostou do meu trabalho? Vamos conversar!
 
-* **LinkedIn:** https://www.linkedin.com/in/augustomotas/
-* **Email:** augustomota.s@icloud.com
+* **LinkedIn:** [Augusto Mota](https://www.linkedin.com/in/augustomotas/)
+* **Email:** [augustomota.s@icloud.com](mailto:augustomota.s@icloud.com)
 
 ---

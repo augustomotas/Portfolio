@@ -9,7 +9,10 @@
     text-decoration: none;
 
 }
-
+img {
+    max-width: 100%;
+    height: auto;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -19,7 +22,9 @@ body {
     background-color: #F8F9FA; /* Fundo Branco Gelo */
     color: #212529;           /* Texto Grafite */
 }
-
+body.no-scroll {
+    overflow: hidden;
+}
 .container {
     width: 90%;
     max-width: 1100px;
@@ -276,9 +281,79 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+/* ================================== */
+/* 10. ESTILOS DO MENU HAMBÚRGUER     */
+/* ================================== */
 
+/* Esconde o ícone hambúrguer em telas grandes (desktop) por padrão */
+.hamburger {
+    display: none;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
 
+/* Estilo para as barrinhas do ícone */
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background-color: #333; /* Cor das barrinhas */
+}
 
+/* @media query: Regras que só valem para telas de até 768px (celulares/tablets) */
+@media (max-width: 768px) {
+    
+    /* 1. Mostra o ícone hambúrguer em telas pequenas */
+    .hamburger {
+        display: block;
+    }
+
+    /* 2. Animação do hambúrguer para virar um "X" quando o menu está aberto */
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    
+    /* 3. Esconde o menu de links e o prepara para a animação de entrada */
+    .nav-links {
+        position: fixed;
+        left: -100%; /* Começa escondido totalmente à esquerda */
+        top: 70px;   /* Começa logo abaixo do header */
+        gap: 0;
+        flex-direction: column; /* Deixa os links um embaixo do outro */
+        background-color: white;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    }
+
+    /* 4. Classe 'active' que o JavaScript adiciona para mostrar o menu */
+    .nav-links.active {
+        left: 0; /* Traz o menu para dentro da tela */
+    }
+
+    /* Estilos para os itens do menu quando aberto */
+    .nav-links li {
+        padding: 20px 0;
+    }
+
+    /* Ajuste para o botão "Contato" dentro do menu mobile */
+    .nav-links .button {
+        display: block;
+        width: 80%;
+        margin: 20px auto;
+        text-align: center;
+    }
+}
 
 /* ================================== */
 /* ESTILO PARA O FUNDO DE PARTÍCULAS  */

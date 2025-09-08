@@ -17,11 +17,18 @@
         <div class="container">
             <nav>
                 <h2 class="logo"><a href="#inicio">Portfólio</a></h2>
+                
                 <ul class="nav-links">
                     <li><a href="#sobre">Sobre Mim</a></li>
                     <li><a href="#projetos">Projetos</a></li>
                     <li><a href="#contato" class="button">Contato</a></li>
                 </ul>
+
+                <button class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
             </nav>
         </div>
     </header>
@@ -180,5 +187,28 @@
     detectRetina: true
   });
 </script>
+<script>
+    const hamburger = document.querySelector(".hamburger");
+    const navLinks = document.querySelector(".nav-links");
+    const body = document.querySelector("body"); // Seleciona o body
+
+    hamburger.addEventListener("click", () => {
+        hamburger.classList.toggle("active");
+        navLinks.classList.toggle("active");
+        body.classList.toggle("no-scroll"); // Adiciona/remove a classe no-scroll ao body
+    });
+
+    // Opcional: Fechar o menu ao clicar em um link
+    navLinks.querySelectorAll('a').forEach(link => {
+        link.addEventListener('click', () => {
+            hamburger.classList.remove('active');
+            navLinks.classList.remove('active');
+            body.classList.remove('no-scroll'); // Remove o no-scroll ao clicar no link
+        });
+    });
+</script>
+
+</body>
+</html>
 </body>
 </html>

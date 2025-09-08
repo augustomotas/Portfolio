@@ -7,9 +7,9 @@ Bem-vindo ao repositório do meu portfólio pessoal! Este projeto foi criado par
 
 ---
 
-## 🌐 Deploy / Demonstração Ao Vivo
+## 🌐 Acesso
 
-Você pode acessar a versão ao vivo do meu portfólio aqui:
+Você pode acessar meu portfólio aqui:
 
 **[Acesse meu Portfólio](https://augustomotas.github.io/Portfolio/)**
 
@@ -21,10 +21,10 @@ Este portfólio é uma página estática desenvolvida para ser a vitrine dos meu
 
 ### Principais Features
 
-* 🎨 **Design Responsivo:** Interface que se adapta perfeitamente a desktops, tablets e smartphones.
-* 갤러리 **Galeria de Projetos:** Seção visual com cards para cada projeto, incluindo imagem e descrição.
-* 🔗 **Links Diretos:** Acesso fácil tanto para o deploy quanto para o código-fonte de cada trabalho.
-* 📄 **Seção "Sobre Mim":** Uma breve introdução sobre minhas paixões, habilidades e carreira.
+* **Design Responsivo:** Interface que se adapta perfeitamente a desktops, tablets e smartphones.
+* **Galeria de Projetos:** Seção visual com cards para cada projeto, incluindo imagem e descrição.
+* **Links Diretos:** Acesso fácil tanto para o deploy quanto para o código-fonte de cada trabalho.
+* **Seção "Sobre Mim":** Uma breve introdução sobre minhas paixões, habilidades e carreira.
 
 ---
 

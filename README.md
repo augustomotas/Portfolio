@@ -5,7 +5,6 @@ Bem-vindo ao repositório do meu portfólio pessoal! Este projeto foi criado par
 ![Demonstração do Portfólio]([coloque aqui o link para uma imagem ou GIF do seu site])
 
 
----
 
 ## 🌐 Acesso
 
@@ -13,7 +12,7 @@ Você pode acessar meu portfólio aqui:
 
 **[Portfólio Augusto Mota](https://augustomotas.github.io/Portfolio/)**
 
----
+
 
 ## Sobre o Projeto
 
@@ -26,7 +25,6 @@ Este portfólio é uma página estática desenvolvida para ser a vitrine dos meu
 * **Links Diretos:** Acesso fácil tanto para o deploy quanto para o código-fonte de cada trabalho.
 * **Seção "Sobre Mim":** Uma breve introdução sobre minhas paixões, habilidades e carreira.
 
----
 
 ## Tecnologias Utilizadas
 
@@ -35,8 +33,6 @@ As seguintes ferramentas e tecnologias foram usadas na construção deste projet
 * **HTML5**
 * **CSS3**
 * **JavaScript**
-
- ---
 
 ## 📫 Contato
 

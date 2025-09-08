@@ -64,7 +64,7 @@ Se você quiser executar este projeto na sua própria máquina, siga os passos a
 
 Gostou do meu trabalho? Vamos conversar!
 
-* **LinkedIn:** [Seu Nome]([link para o seu perfil no LinkedIn])
-* **Email:** augustomota.s@icloud.com(mailto:augustomota.s@icloud.com)
+* **LinkedIn:** https://www.linkedin.com/in/augustomotas/
+* **Email:** augustomota.s@icloud.com
 
 ---

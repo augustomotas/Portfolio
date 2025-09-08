@@ -1,35 +1,184 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
     <title>Portfólio Augusto Mota</title>
 </head>
 
 <body>
-    <div class="background">
-        <nav>
-            <h2><a href="index.html">Portfólio</a></h2>
-            <ul class="cabeçalho-link">
-                <li><a href="index.html">Início</a></li>
-                <li><a href="aboutme.html">Sobre mim</a></li>
-                <li><a href="projetos.html">Projetos</a></li>
-                <li><a href="clientes.html">Clientes</a></li>
-                <a href="contact.html" class="ctt">Contato</a>
+<div id="tsparticles"></div>
+    <header>
+        <div class="container">
+            <nav>
+                <h2 class="logo"><a href="#inicio">Portfólio</a></h2>
+                <ul class="nav-links">
+                    <li><a href="#sobre">Sobre Mim</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato" class="button">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-            </ul><!--cabeçalho lino!-->
-        </nav>
-        <div class="Main">
-            <h1 id="pkm">Augusto<span>Mota</span></h1>
-            <h3>Desenvolvedor Full-Stack</h3>
-        </div><!--main!-->
-    </div><!--background!-->
+    <main>
+        <section id="inicio" class="hero">
+            <div class="hero-content">
+                <h1>Augusto <span>Mota</span></h1>
+                <h3>Desenvolvedor Full-Stack</h3>
+                <a href="#projetos" class="button">Ver meus projetos</a>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Sobre Mim</h2>
+                </div>
+                <div class="sobre-content">
+                    <div class="sobre-imagem">
+                        <img src="Imagens/me.png" alt="Foto de Augusto Mota">
+                    </div>
+                    <div class="sobre-texto">
+                        <h3>Quem sou eu?</h3>
+                        <p>
+                            Sou um Desenvolvedor Full-Stack com experiência em HTML, CSS, React.js, Java, C e C++. 
+                            Apaixonado pelo desenvolvimento de componentes reutilizáveis e soluções eficientes.
+                        </p>
+                        <p>
+                            Atualmente, curso Engenharia de Computação no Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG), 
+                            onde aprofundo meus conhecimentos para criar tecnologias inovadoras.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Meus Projetos</h2>
+                </div>
+                <div class="projetos-grid">
+                    <div class="card-projeto">
+                        <h3>Nome do Projeto 1</h3>
+                        <p>Breve descrição do que este projeto faz e as tecnologias utilizadas.</p>
+                        <div class="card-links">
+                            <a href="#" class="button">Ver Site</a>
+                            <a href="#" class="button-outline">Ver Código</a>
+                        </div>
+                    </div>
+<!--                    <div class="card-projeto">
+                        <h3>Nome do Projeto 2</h3>
+                        <p>Breve descrição do que este projeto faz e as tecnologias utilizadas.</p>
+                         <div class="card-links">
+                            <a href="#" class="button">Ver Site</a>
+                            <a href="#" class="button-outline">Ver Código</a>
+                        </div>
+                    </div>
+
+                    <div class="card-projeto">
+                        <h3>Nome do Projeto 3</h3>
+                        <p>Breve descrição do que este projeto faz e as tecnologias utilizadas.</p>
+                         <div class="card-links">
+                            <a href="#" class="button">Ver Site</a>
+                            <a href="#" class="button-outline">Ver Código</a>
+                        </div>
+                    </div>
+                -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Contato</h2>
+                </div>
+                <p>Gostou do meu trabalho? Vamos conversar!</p>
+                <a href="mailto:augustomota.s@icloud.com" aria-label="Enviar um E-mail" title="E-mail">
+                    <img src="Imagens/mail.jpg" alt="Ícone de E-mail" class="social-icon">
+                </a>
+
+                <a href="https://api.whatsapp.com/send?phone=5531983463482" target="_blank" aria-label="Falar no WhatsApp" title="WhatsApp">
+                    <img src="Imagens/Whatsapp.png" alt="Ícone do WhatsApp" class="social-icon">
+                </a>
+
+                <a href="https://www.linkedin.com/in/augustomotas/" target="_blank" aria-label="Ver meu perfil no LinkedIn" title="LinkedIn">
+                    <img src="Imagens/linkedin.png" alt="Ícone do LinkedIn" class="social-icon">
+                </a>
+            </div>
+        </section>
+    </main>
+
     <footer>
-        <p>Augusto Mota &copy; 2023</p>
+        <p>Augusto Mota &copy; 2025</p>
     </footer>
+<script src="https://cdn.jsdelivr.net/npm/tsparticles@2.9.3/tsparticles.bundle.min.js"></script>
+<script>
+  tsParticles.load("tsparticles", {
+    background: {
+      color: "#F8F9FA" // Cor de fundo (um azul bem escuro)
+    },
+    fpsLimit: 60,
+    particles: {
+      number: {
+        value: 100, // Quantidade de partículas
+        density: {
+          enable: true,
+          value_area: 800
+        }
+      },
+      color: {
+        value: "#22D3EE" // Cor das partículas (um ciano/azul claro)
+      },
+      shape: {
+        type: "circle"
+      },
+      opacity: {
+        value: 0.5,
+        random: true
+      },
+      size: {
+        value: 3,
+        random: true
+      },
+      move: {
+        enable: true,
+        speed: 1,
+        direction: "none",
+        out_mode: "out",
+        bounce: false
+      },
+      line_linked: {
+        enable: true,
+        distance: 150,
+        color: "#22D3EE",
+        opacity: 0.4,
+        width: 1
+      }
+    },
+    interactivity: {
+      detect_on: "canvas",
+      events: {
+        onhover: {
+          enable: true,
+          mode: "repulse" // Afasta as partículas ao passar o mouse
+        },
+        onclick: {
+          enable: true,
+          mode: "push" // Adiciona partículas ao clicar
+        },
+        resize: true
+      }
+    },
+    detectRetina: true
+  });
+</script>
 </body>
-
 </html>

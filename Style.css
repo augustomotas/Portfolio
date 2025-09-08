@@ -1,3 +1,300 @@
+/* ================================== */
+/* 1. RESET E ESTILOS GERAIS          */
+/* ================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #F8F9FA; /* Fundo Branco Gelo */
+    color: #212529;           /* Texto Grafite */
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-title h2 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.button {
+    background-color: #0D6EFD; /* Destaque Azul Clássico */
+    color: white;
+    padding: 12px 28px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.social-icon {
+    width: 7%; /* Define a largura da imagem */
+    height: auto; /* Mantém a proporção original da imagem */
+    margin: 30px 0; /* Adiciona um pouco de espaço acima e abaixo */
+    border-radius: 15px;
+    margin-right: 10px;
+    transition: transform 0.4s ease-out, box-shadow 0.5s ease-out;
+}
+
+.social-icon a{
+    text-decoration: none;
+}
+.social-icon:hover {
+    transform: scale(1.15) translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.social-icon a{
+    text-decoration: none; 
+}
+.button:hover {
+    background-color: #0B5ED7;
+}
+
+
+/* ================================== */
+/* 2. HEADER E NAVEGAÇÃO              */
+/* ================================== */
+
+header {
+    background-color: white;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #212529;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 25px; /* Espaçamento entre os links */
+}
+
+/* --- CÓDIGO MODIFICADO ABAIXO --- */
+
+/* Estilo base para TODOS os links da navegação */
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    /* Adicionada transição para suavizar a mudança de cor */
+    transition: color 0.3s ease;
+}
+
+/* Hover para os links que NÃO SÃO o botão (ficam azuis) */
+.nav-links a:not(.button):hover {
+    color: #0D6EFD; 
+}
+
+/* Hover específico para o BOTÃO (fica preto) */
+/* Esta regra é mais específica e vai sobrescrever a regra genérica de .button:hover */
+.nav-links .button:hover {
+    color: white; /* Garante que o texto continue branco */
+}
+
+
+/* ================================== */
+/* 3. HERO SECTION (INÍCIO)           */
+/* ================================== */
+
+.hero {
+    min-height: calc(100vh - 70px); /* Altura da tela menos a altura do header */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    color: #333;
+}
+
+.hero-content h1 span {
+    color: #0D6EFD; /* Destaque Azul Clássico */
+}
+
+.hero-content h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+
+/* ================================== */
+/* 4. SEÇÃO SOBRE MIM                 */
+/* ================================== */
+
+
+
+.sobre-content {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.sobre-imagem {
+    flex-basis: 35%; /* Ocupa 35% do espaço */
+}
+
+.sobre-imagem img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+    border: 5px solid #FFFFFF;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.sobre-texto {
+    flex-basis: 65%; /* Ocupa 65% do espaço */
+}
+
+.sobre-texto h3 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #0D6EFD;
+}
+
+.sobre-texto p {
+    line-height: 1.7; /* Espaçamento entre linhas */
+    margin-bottom: 15px;
+}
+
+
+/* ================================== */
+/* 5. SEÇÃO PROJETOS                  */
+/* ================================== */
+
+
+
+#sobre,#contato {
+    background-color: #FFFFFF;
+}
+
+.projetos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.card-projeto {
+    background-color: #fdfdfd;
+    border: 1px solid #E9ECEF;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.card-projeto:hover {
+    transform: translateY(-5px);
+}
+
+.card-projeto h3 {
+    margin-bottom: 15px;
+    color: #0D6EFD;
+}
+
+.card-links {
+    margin-top: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.button-outline {
+    background-color: transparent;
+    color: #0D6EFD;
+    border: 1px solid #0D6EFD;
+    padding: 11px 28px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 500;
+    display: inline-block;
+}
+
+/* ================================== */
+/* 6. SEÇÃO CONTATO                   */
+/* ================================== */
+
+#contato {
+    text-align: center;
+}
+
+#contato p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+
+/* ================================== */
+/* 7. FOOTER                          */
+/* ================================== */
+footer {
+    background-color: #212529;
+    color: #F8F9FA;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+
+
+/* ================================== */
+/* ESTILO PARA O FUNDO DE PARTÍCULAS  */
+/* ================================== */
+
+#tsparticles {
+  position: fixed; /* Fica fixo na tela, mesmo com rolagem */
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* <<< MUITO IMPORTANTE: Manda o fundo para trás de todo o conteúdo */
+}
+
+
+/*
 * {
     margin: 0;
     padding: 0;
@@ -5,8 +302,12 @@
     font-family: 'Josefin Sans', 'sans-seri'
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .background {
-    background-color: #000215;
+    background-color: #003a48;
     background-image: url(Imagens/back.jpg);
     background-size: cover;
     background-position: center;
@@ -349,8 +650,6 @@ footer {
     }
 }
 
-/* Other
- * =============================== */
 
 .btn {
     cursor: pointer;
@@ -407,3 +706,4 @@ footer {
     border-radius: 10px;
     background-color: #ffffff00;
 }
+*/

@@ -11,7 +11,7 @@ Bem-vindo ao repositório do meu portfólio pessoal! Este projeto foi criado par
 
 Você pode acessar a versão ao vivo do meu portfólio aqui:
 
-**[Acesse meu Portfólio]([coloque aqui o link para o seu site no ar, ex: Vercel, GitHub Pages])**
+**[Acesse meu Portfólio](https://augustomotas.github.io/Portfolio/)**
 
 ---
 
@@ -36,29 +36,6 @@ As seguintes ferramentas e tecnologias foram usadas na construção deste projet
 * **CSS3**
 * **JavaScript**
 * ---
-
-## ⚙️ Como Rodar o Projeto Localmente
-
-Se você quiser executar este projeto na sua própria máquina, siga os passos abaixo:
-
-1.  **Clone o repositório:**
-    ```bash
-    git clone [https://github.com/augustomotas/Portfolio.git](https://github.com/augustomotas/Portfolio.git)
-    ```
-
-2.  **Navegue até o diretório:**
-    ```bash
-    cd Portfolio
-    ```
-
-3.  **Instale as dependências (se houver):**
-    ```bash
-    npm install
-    ```
-
-4.  **Abra o projeto:**
-    A forma mais simples é abrir o arquivo `index.html` diretamente no seu navegador.
-    ---
 
 ## 📫 Contato
 

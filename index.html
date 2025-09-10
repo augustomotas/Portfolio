@@ -1,232 +1,328 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Portfólio Augusto Mota</title>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <header>
-        <div class="container">
-            <nav>
-                <h2 class="logo"><a href="#inicio">Portfólio</a></h2>
-                <ul class="nav-links">
-                    <li><a href="#sobre">Sobre Mim</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
-                    <li><button id="theme-toggle" title="Trocar tema">🌙</button></li>
-                    <li><a href="#contato" class="button">Contato</a></li>
-                </ul>
-                <button class="hamburger" aria-label="Abrir menu">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </button>
-            </nav>
-        </div>
+      <div class="container">
+        <nav>
+          <h2 class="logo"><a href="#inicio">Portfólio</a></h2>
+          <ul class="nav-links">
+            <li><a href="#sobre">Sobre Mim</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><button id="theme-toggle" title="Trocar tema">🌙</button></li>
+            <li><a href="#contato" class="button">Contato</a></li>
+          </ul>
+          <button class="hamburger" aria-label="Abrir menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+        </nav>
+      </div>
     </header>
 
     <main>
-        <section id="inicio" class="hero">
-            <div id="particles-hero" class="particles-container"></div>
-            <div class="hero-content">
-                <h1>Augusto <span>Mota</span></h1>
-                <h3>Desenvolvedor Full-Stack</h3>
-                <a href="#projetos" class="button">Ver meus projetos</a>
-            </div>
-        </section>
+      <section id="inicio" class="hero">
+        <div id="particles-hero" class="particles-container"></div>
+        <div class="hero-content">
+          <h1>Augusto <span>Mota</span></h1>
+          <h3>Desenvolvedor Full-Stack</h3>
+          <a href="#projetos" class="button">Ver meus projetos</a>
+        </div>
+      </section>
 
-        <section id="sobre">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Sobre Mim</h2>
-                </div>
-                <div class="sobre-content">
-                    <div class="sobre-imagem">
-                        <img src="Imagens/me.png" alt="Foto de Augusto Mota">
-                    </div>
-                    <div class="sobre-texto">
-                        <h3>Quem sou eu?</h3>
-                        <p>
-                            Sou um Desenvolvedor Full-Stack com experiência em HTML, CSS, React.js, Java, C e C++. 
-                            Apaixonado pelo desenvolvimento de componentes reutilizáveis e soluções eficientes.
-                        </p>
-                        <p>
-                            Atualmente, curso Engenharia de Computação no Centro Federal de Educação Tecnológica de Minas Gerais (CEFET-MG), 
-                            onde aprofundo meus conhecimentos para criar tecnologias inovadoras.
-                        </p>
-                    </div>
-                </div>
+      <section id="sobre">
+        <div class="container">
+          <div class="section-title">
+            <h2>Sobre Mim</h2>
+          </div>
+          <div class="sobre-content">
+            <div class="sobre-imagem">
+              <img src="Imagens/me.png" alt="Foto de Augusto Mota" />
             </div>
-        </section>
-
-        <section id="projetos">
-            <div id="particles-projetos" class="particles-container"></div>
-            <div class="container">
-                <div class="section-title">
-                    <h2>Meus Projetos</h2>
-                </div>
-                <div class="projetos-grid">
-                    <div class="card-projeto">
-                        <h3>Nome do Projeto 1</h3>
-                        <p>Breve descrição do que este projeto faz e as tecnologias utilizadas.</p>
-                        <div class="card-links">
-                            <a href="#" class="button">Ver Site</a>
-                            <a href="#" class="button-outline">Ver Código</a>
-                        </div>
-                    </div>
-                    <div class="card-projeto">
-                        <h3>Nome do Projeto 2</h3>
-                        <p>Breve descrição do que este projeto faz e as tecnologias utilizadas.</p>
-                         <div class="card-links">
-                            <a href="#" class="button">Ver Site</a>
-                            <a href="#" class="button-outline">Ver Código</a>
-                        </div>
-                    </div>
-
-                    <div class="card-projeto">
-                        <h3>Nome do Projeto 3</h3>
-                        <p>Breve descrição do que este projeto faz e as tecnologias utilizadas.</p>
-                         <div class="card-links">
-                            <a href="#" class="button">Ver Site</a>
-                            <a href="#" class="button-outline">Ver Código</a>
-                        </div>
-                    </div>
-                </div>
+            <div class="sobre-texto">
+              <h3>Quem sou eu?</h3>
+              <p>
+                Sou um Desenvolvedor Full-Stack com experiência em HTML, CSS,
+                React.js, Java, C e C++. Apaixonado pelo desenvolvimento de
+                componentes reutilizáveis e soluções eficientes.
+              </p>
+              <p>
+                Atualmente, curso Engenharia de Computação no Centro Federal de
+                Educação Tecnológica de Minas Gerais (CEFET-MG), onde aprofundo
+                meus conhecimentos para criar tecnologias inovadoras.
+              </p>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <section id="contato">
-            <div class="container">
-                <div class="section-title">
-                    <h2>Contato</h2>
-                </div>
-                <p>Gostou do meu trabalho? Vamos conversar!</p>
-                <div class="social-links">
-                    <a href="mailto:augustomota.s@icloud.com" aria-label="Enviar um E-mail" title="E-mail">
-                        <img src="Imagens/mail.jpg" alt="Ícone de E-mail" class="social-icon">
-                    </a>
-                    <a href="https://api.whatsapp.com/send?phone=5531983463482" target="_blank" aria-label="Falar no WhatsApp" title="WhatsApp">
-                        <img src="Imagens/Whatsapp.png" alt="Ícone do WhatsApp" class="social-icon">
-                    </a>
-                    <a href="https://www.linkedin.com/in/augustomotas/" target="_blank" aria-label="Ver meu perfil no LinkedIn" title="LinkedIn">
-                        <img src="Imagens/linkedin.png" alt="Ícone do LinkedIn" class="social-icon">
-                    </a>
-                </div>
+      <section id="projetos">
+        <div id="particles-projetos" class="particles-container"></div>
+        <div class="container">
+          <div class="section-title">
+            <h2>Meus Projetos</h2>
+          </div>
+          <div class="projetos-grid">
+            <div class="card-projeto">
+              <h3>Jokenpô em C com Allegro 5</h3>
+
+              <p>
+                Um jogo gráfico de Pedra, Papel e Tesoura desenvolvido em C,
+                onde o jogador compete contra o computador.
+              </p>
+              <br />
+              <p>
+                O projeto inclui funcionalidades importantes como placar,
+                salvamento automático e persistente do score, sons interativos e
+                um botão para resetar a pontuação.
+              </p>
+              <br />
+              <div>
+                <img
+                  src="Imagens/jokenpo.jpg"
+                  alt="Ícone do WhatsApp"
+                  class="card-foto"
+                />
+              </div>
+
+              <p>
+                <strong>Tecnologias:</strong> C, Allegro 5 (para gráficos, áudio
+                e inputs) e compilador GCC (MinGW).
+              </p>
+              <div class="card-links">
+                <a href="#" class="button">Ver Site</a>
+                <a href="#" class="button-outline">Ver Código</a>
+              </div>
             </div>
-        </section>
+            <div class="card-projeto">
+              <h3>Jokenpô em C com Allegro 5</h3>
+
+              <p>
+                Um jogo gráfico de Pedra, Papel e Tesoura desenvolvido em C,
+                onde o jogador compete contra o computador.
+              </p>
+              <br />
+              <p>
+                O projeto inclui funcionalidades importantes como placar,
+                salvamento automático e persistente do score, sons interativos e
+                um botão para resetar a pontuação.
+              </p>
+              <br />
+              <div>
+                <img
+                  src="Imagens/jokenpo.jpg"
+                  alt="Ícone do WhatsApp"
+                  class="card-foto"
+                />
+              </div>
+
+              <p>
+                <strong>Tecnologias:</strong> C, Allegro 5 (para gráficos, áudio
+                e inputs) e compilador GCC (MinGW).
+              </p>
+              <div class="card-links">
+                <a
+                  href="https://www.youtube.com/watch?v=YmMp_M5sl9w"
+                  class="button"
+                  target="_blank"
+                  >Ver Site</a
+                >
+                <a
+                  href="https://github.com/augustomotas/Jokenpo-Allegro.git"
+                  class="button-outline"
+                  >Ver Código</a
+                >
+              </div>
+            </div>
+
+            <div class="card-projeto">
+              <h3>Nome do Projeto 3</h3>
+              <p>
+                Breve descrição do que este projeto faz e as tecnologias
+                utilizadas.
+              </p>
+              <div class="card-links">
+                <a href="#" class="button">Ver Site</a>
+                <a href="#" class="button-outline">Ver Código</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contato">
+        <div class="container">
+          <div class="section-title">
+            <h2>Contato</h2>
+          </div>
+          <p>Gostou do meu trabalho? Vamos conversar!</p>
+          <div class="social-links">
+            <a
+              href="mailto:augustomota.s@icloud.com"
+              aria-label="Enviar um E-mail"
+              title="E-mail"
+            >
+              <img
+                src="Imagens/mail.jpg"
+                alt="Ícone de E-mail"
+                class="social-icon"
+              />
+            </a>
+            <a
+              href="https://api.whatsapp.com/send?phone=5531983463482"
+              target="_blank"
+              aria-label="Falar no WhatsApp"
+              title="WhatsApp"
+            >
+              <img
+                src="Imagens/Whatsapp.png"
+                alt="Ícone do WhatsApp"
+                class="social-icon"
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/augustomotas/"
+              target="_blank"
+              aria-label="Ver meu perfil no LinkedIn"
+              title="LinkedIn"
+            >
+              <img
+                src="Imagens/linkedin.png"
+                alt="Ícone do LinkedIn"
+                class="social-icon"
+              />
+            </a>
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer>
-        <p>Augusto Mota &copy; 2025</p>
+      <p>Augusto Mota &copy; 2025</p>
     </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/tsparticles@2.9.3/tsparticles.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@2.9.3/tsparticles.bundle.min.js"></script>
 
-<script>
-    // --- LÓGICA DO MENU HAMBÚRGUER (Inalterada) ---
-    const hamburger = document.querySelector(".hamburger");
-    const navLinks = document.querySelector(".nav-links");
-    
-    hamburger.addEventListener("click", () => {
+    <script>
+      // --- LÓGICA DO MENU HAMBÚRGUER (Inalterada) ---
+      const hamburger = document.querySelector(".hamburger");
+      const navLinks = document.querySelector(".nav-links");
+
+      hamburger.addEventListener("click", () => {
         hamburger.classList.toggle("active");
         navLinks.classList.toggle("active");
         document.body.classList.toggle("no-scroll");
-    });
+      });
 
-    navLinks.querySelectorAll('a, button').forEach(link => {
-        link.addEventListener('click', () => {
-            if (navLinks.classList.contains('active')) {
-                hamburger.classList.remove('active');
-                navLinks.classList.remove('active');
-                document.body.classList.remove('no-scroll');
-            }
+      navLinks.querySelectorAll("a, button").forEach((link) => {
+        link.addEventListener("click", () => {
+          if (navLinks.classList.contains("active")) {
+            hamburger.classList.remove("active");
+            navLinks.classList.remove("active");
+            document.body.classList.remove("no-scroll");
+          }
         });
-    });
+      });
 
-    // --- LÓGICA UNIFICADA DO DARK MODE E PARTÍCULAS (NOVA ABORDAGEM) ---
-    const themeToggle = document.getElementById('theme-toggle');
+      // --- LÓGICA UNIFICADA DO DARK MODE E PARTÍCULAS (NOVA ABORDAGEM) ---
+      const themeToggle = document.getElementById("theme-toggle");
 
-    // Função que cria a configuração COMPLETA das partículas com base no tema
-    function getParticleConfig(theme) {
+      // Função que cria a configuração COMPLETA das partículas com base no tema
+      function getParticleConfig(theme) {
         // Define a cor das partículas com base no tema atual
-        const particleColor = (theme === 'dark') ? '#4FD1C5' : '#00a79695';
-        
+        const particleColor = theme === "dark" ? "#4FD1C5" : "#00a79695";
+
         // Retorna o objeto de configuração completo
         return {
-            fpsLimit: 60,
-            particles: {
-                number: { value: 60, density: { enable: true, value_area: 800 } },
-                shape: { type: "circle" },
-                opacity: { value: 0.5, random: true },
-                size: { value: 3, random: true },
-                move: { enable: true, speed: 1, direction: "none", out_mode: "out", bounce: false },
-                // Define a cor das partículas e das linhas aqui
-                color: {
-                    value: particleColor
-                },
-                line_linked: {
-                    enable: true,
-                    distance: 150,
-                    opacity: 0.4,
-                    width: 1,
-                    color: {
-                        value: particleColor
-                    }
-                }
+          fpsLimit: 60,
+          particles: {
+            number: { value: 60, density: { enable: true, value_area: 800 } },
+            shape: { type: "circle" },
+            opacity: { value: 0.5, random: true },
+            size: { value: 3, random: true },
+            move: {
+              enable: true,
+              speed: 1,
+              direction: "none",
+              out_mode: "out",
+              bounce: false,
             },
+            // Define a cor das partículas e das linhas aqui
+            color: {
+              value: particleColor,
+            },
+            line_linked: {
+              enable: true,
+              distance: 150,
+              opacity: 0.4,
+              width: 1,
+              color: {
+                value: particleColor,
+              },
+            },
+          },
 
-            detectRetina: true
+          detectRetina: true,
         };
-    }
+      }
 
-    // Função principal que aplica o tema
-    function applyTheme(theme) {
+      // Função principal que aplica o tema
+      function applyTheme(theme) {
         // Atualiza a classe no body para o CSS funcionar
-        if (theme === 'dark') {
-            document.body.classList.add('dark-mode');
-            themeToggle.textContent = '☀️';
-            localStorage.setItem('theme', 'dark');
+        if (theme === "dark") {
+          document.body.classList.add("dark-mode");
+          themeToggle.textContent = "☀️";
+          localStorage.setItem("theme", "dark");
         } else {
-            document.body.classList.remove('dark-mode');
-            themeToggle.textContent = '🌙';
-            localStorage.setItem('theme', 'light');
+          document.body.classList.remove("dark-mode");
+          themeToggle.textContent = "🌙";
+          localStorage.setItem("theme", "light");
         }
-        
+
         // Pega a nova configuração de partículas baseada no tema
         const newConfig = getParticleConfig(theme);
-        
+
         // RECARREGA as animações com a nova configuração de cores
         tsParticles.load("particles-hero", newConfig);
         tsParticles.load("particles-projetos", newConfig);
-    }
+      }
 
-    // Evento de clique no botão de tema
-    themeToggle.addEventListener('click', () => {
-        const newTheme = document.body.classList.contains('dark-mode') ? 'light' : 'dark';
+      // Evento de clique no botão de tema
+      themeToggle.addEventListener("click", () => {
+        const newTheme = document.body.classList.contains("dark-mode")
+          ? "light"
+          : "dark";
         applyTheme(newTheme);
-    });
+      });
 
-    // Carrega tudo quando a página é aberta
-    window.addEventListener('load', () => {
-        const savedTheme = localStorage.getItem('theme');
-        const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      // Carrega tudo quando a página é aberta
+      window.addEventListener("load", () => {
+        const savedTheme = localStorage.getItem("theme");
+        const systemPrefersDark = window.matchMedia(
+          "(prefers-color-scheme: dark)"
+        ).matches;
 
         if (savedTheme) {
-            applyTheme(savedTheme);
+          applyTheme(savedTheme);
         } else if (systemPrefersDark) {
-            applyTheme('dark');
+          applyTheme("dark");
         } else {
-            applyTheme('light');
+          applyTheme("light");
         }
-    });
-</script>
-
-</body>
+      });
+    </script>
+  </body>
 </html>

@@ -267,13 +267,18 @@ header nav {
 }
 
 .card-projeto {
+    text-align: justify;
     background-color: var(--cor-fundo);
     border: 1px solid var(--cor-borda);
     padding: 30px;
     border-radius: 8px;
     box-shadow: 0 4px 12px var(--cor-sombra);
     transition: transform 0.3s ease;
-    z-index: 2; /* Garante que o card fique na frente das partículas */
+    z-index: 2;
+    /* Garante que o card fique na frente das partículas */
+}
+.card-projeto h3{
+    text-align: left;
 }
 
 .card-projeto:hover {

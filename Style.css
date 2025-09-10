@@ -264,7 +264,8 @@ header nav {
 .projetos-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 30px;
+    gap: 20px;
+    
 }
 
 .card-projeto {
@@ -276,6 +277,7 @@ header nav {
     box-shadow: 0 4px 12px var(--cor-sombra);
     transition: transform 0.3s ease;
     z-index: 2;
+
     /* Garante que o card fique na frente das partículas */
 }
 .card-projeto h3{
@@ -438,4 +440,8 @@ footer {
     margin-bottom: 20px;
     box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.6);
     border-radius: 12px;
+}
+
+#Tech{
+    padding-bo: 40px;
 }

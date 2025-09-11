@@ -2,7 +2,7 @@
 
 Bem-vindo ao repositório do meu portfólio pessoal! Este projeto foi criado para apresentar minhas habilidades, experiências e os projetos que desenvolvi.
 
-![Demonstração do Portfólio]([coloque aqui o link para uma imagem ou GIF do seu site])
+![Demonstração do Portfólio](/Imagens/exemplo.jpg)
 
 ## 🌐 Acesso
 

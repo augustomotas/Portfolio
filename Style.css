@@ -400,6 +400,7 @@ footer {
     
             /* Remove a largura máxima para que o grid se adapte à tela */
             max-width: 100%;
+            align-items: center;
         }
     
         .card-projeto {
@@ -486,9 +487,6 @@ footer {
   border-radius: 12px; /* Aplica o arredondamento de borda */
 }
 
-#Tech{
-    padding-bo: 40px;
-}
 
 #imgcard {
     justify-items: center;

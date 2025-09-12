@@ -402,7 +402,11 @@ footer {
             max-width: 100%;
             align-items: center;
         }
-    
+        #imgcard {
+            /* Centraliza o conteúdo do card */
+            display: flex;
+            justify-content: center;
+        }
         .card-projeto {
             /* Garante que o padding não cause um overflow */
             padding: 20px;

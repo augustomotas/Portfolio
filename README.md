@@ -1,39 +1,27 @@
-# Portfólio Augusto Mota
+# Meu Portfólio Pessoal
 
-Bem-vindo ao repositório do meu portfólio pessoal! Este projeto foi criado para apresentar minhas habilidades, experiências e os projetos que desenvolvi.
-
-![Demonstração do Portfólio](/Imagens/exemplo.jpg)
-
-## 🌐 Acesso
-
-Você pode acessar meu portfólio aqui:
+Bem-vindo ao repositório do meu portfólio! Criei esta página do zero para ser um espaço central onde apresento os projetos em que trabalhei, conto um pouco da minha história e mostro as tecnologias que venho aprendendo.
 
 **[Portfólio Augusto Mota](https://augustomotas.github.io/Portfolio/)**
 
-## Sobre o Projeto
+### O que você vai encontrar aqui
 
-Este portfólio é uma página estática desenvolvida para ser a vitrine dos meus trabalhos. Nele, você encontrará uma galeria com alguns projetos, cada um com uma breve descrição e links para suas demonstrações ao vivo e seus respectivos repositórios no GitHub.
+- **Layout Responsivo:** O site funciona bem em qualquer tamanho de tela, seja no celular, tablet ou computador.
+- **Galeria de Projetos:** Uma seção onde detalho cada projeto, o problema e as ferramentas que usei para construí-lo.
+- **Um Pouco Sobre Mim:** Uma breve apresentação sobre minha jornada na Engenharia de Computação e minha paixão por tecnologia.
+- **Contato:** Links diretos para minhas redes e informações de contato.
 
-### Principais Features
+### Ferramentas Utilizadas
 
-- **Design Responsivo:** Interface que se adapta perfeitamente a desktops, tablets e smartphones.
-- **Galeria de Projetos:** Seção visual com cards para cada projeto, incluindo imagem e descrição.
-- **Links Diretos:** Acesso fácil tanto para o deploy quanto para o código-fonte de cada trabalho.
-- **Seção "Sobre Mim":** Uma breve introdução sobre minhas paixões, habilidades e carreira.
+Para construir esta página, usei as tecnologias essenciais do front-end:
 
-## Tecnologias Utilizadas
+- HTML5
+- CSS3
+- JavaScript
 
-As seguintes ferramentas e tecnologias foram usadas na construção deste projeto:
+### Vamos Conversar?
 
-- **HTML5**
-- **CSS3**
-- **JavaScript**
-
-## 📫 Contato
-
-Gostou do meu trabalho? Vamos conversar!
+Se curtiu o que viu ou quer trocar uma ideia, me chame em um dos canais abaixo. Ficarei feliz em responder!
 
 - **LinkedIn:** [Augusto Mota](https://www.linkedin.com/in/augustomotas/)
-- **Email:** [augustomota.s@icloud.com](mailto:augustomota.s@icloud.com)
-
----
+- **Email:** augustomota.s@icloud.com
